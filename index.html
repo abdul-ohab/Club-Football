@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sports</title>
+</head>
+<body>
+    
+    <!-- header section -->
+    <section>
+        <div class="container">
+            <div class="left-img">
+                <img src="Image/messi.png" alt="">
+            </div>
+            <div class="content">
+                <h1>Select Your Best Five Player's</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore sit porro,
+                   sint quo illo voluptatum tempore architecto dolores ut!</p>
+            </div>
+            <div class="right-img">
+                <img src="Image/card.jpg" alt="">     
+            </div>
+        </div>
+    </section>
+
+    <!-- section for player selection -->
+    <section>
+        <div class="player-select">
+            <div class="selection">
+                <div class="cards">
+                    <div class="card">
+                        <img src="Image/images-1.jpg" alt="">
+                        <div class="card-body">
+                            <h2>Leo Messi</h2>
+                            <h6>Goal-40 * Assist-129</h6>
+                        </div>
+                        <button class="btn">Select</button>
+                    </div>
+                    <div class="card">
+                        <img src="Image/images-2.jpg" alt="">
+                        <div class="card-body">
+                            <h2>Neymar Jr</h2>
+                            <h6>Goal-30 * Assist-110</h6>
+                        </div>
+                        <button class="btn">Select</button>
+                    </div>
+                    <div class="card">
+                        <img src="Image/images-9.jpg" alt="">
+                        <div class="card-body">
+                            <h2>Crisciano Ronaldo</h2>
+                            <h6>Goal-42 * Assist-125</h6>
+                        </div>
+                        <button class="btn">Select</button>
+                    </div>
+                    <div class="card">
+                        <img src="Image/images-3.jpg" alt="">
+                        <div class="card-body">
+                            <h2>Kylian Mbappe</h2>
+                            <h6>Goal-35 * Assist-90</h6>
+                        </div>
+                        <button class="btn">Select</button>
+                    </div>
+                    <div class="card">
+                        <img src="Image/images-4.jpg" alt="">
+                        <div class="card-body">
+                            <h2>De Maria</h2>
+                            <h6>Goal-22 * Assist-115</h6>
+                        </div>
+                        <button class="btn">Select</button>
+                    </div>
+                    <div class="card">
+                        <img src="Image/images-5.jpg" alt="">
+                        <div class="card-body">
+                            <h2>Vinicius Jr</h2>
+                            <h6>Goal-20 * Assist-95</h6>
+                        </div>
+                        <button class="btn">Select</button>
+                    </div>
+                    <div class="card">
+                        <img src="Image/images-6.jpg" alt="">
+                        <div class="card-body">
+                            <h2>Luca Modric</h2>
+                            <h6>Goal-25 * Assist-120</h6>
+                        </div>
+                        <button class="btn">Select</button>
+                    </div>
+                    <div class="card">
+                        <img src="Image/images-7.jpg" alt="">
+                        <div class="card-body">
+                            <h2>Zlatan Ibrahimovic</h2>
+                            <h6>Goal-36 * Assist-109</h6>
+                        </div>
+                        <button class="btn">Select</button>
+                    </div>
+                    <div class="card">
+                        <img src="Image/images-8.jpg" alt="">
+                        <div class="card-body">
+                            <h2>Enzo Fernandez</h2>
+                            <h6>Goal-10 * Assist-80</h6>
+                        </div>
+                        <button class="btn">Select</button>
+                    </div>
+                </div>
+
+
+                <div class="calculate">
+                    <div class="total-player">
+                        <h2>Selected-V</h2>
+                        <ol id="selected-player">
+                            
+                        </ol>
+                    </div>
+                    <div class="club-cost">
+                        <h2>Budget</h2>
+                        <div class="player-cost">
+                            <div class="per-player">
+                                <h5>Per Player</h5>
+                                <input type="text" id="cost-pp" class="para">
+                            </div>
+                            <button class="btn" onclick="costCalculation()">Calculate</button>
+                        </div>
+                        <div class="total-calculate">
+                            <div class="expense margin-buttom">
+                                <h5>Player Expenses</h5>
+                                <p id="player-expense">0</p>
+                            </div>
+                           <div class="expense">
+                                <h5>Manager</h5>
+                                <input type="text" id="manager" class="para">
+                           </div>
+                            <div class="expense">
+                                <h5>Coach</h5>
+                                <input type="text" id="coach" class="para">
+                            </div>
+                            <button class="btn" onclick="calculateTotal()">Calculate Total</button>
+                            <div class="total">
+                                <h5>Total</h5>
+                                <p id="total-cost">0</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+        </div>
+    </section>
+
+</body>
+<script src="main.js"></script>
+</html>

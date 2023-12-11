@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Crimson+Text:wght@400;600;700&family=Exo+2:ital@0;1&family=Open+Sans:wght@400;600&family=Poppins&family=Signika+Negative&family=Sometype+Mono:ital,wght@1,500&family=Tilt+Neon&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    text-align: center;
+    align-items: center;
+    min-height: 90vh;
+    background-color: #242536;
+}
+.right-img{
+    margin-top: -200px;
+}
+h1{
+    font-size: 60px;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: bold;
+    color: #eb5e28;
+}
+h2{
+    font-size: 30px;
+    font-family: 'Crimson Text', serif;
+    color: #edf2f4;
+}
+h6{
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    color: #edf2f4;
+    opacity: 0.7;
+}
+h5{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: #edf2f4;
+    opacity: 0.7;
+}
+p{
+    font-size: 18px;
+    color: #edf2f4;
+    font-family: 'Exo 2', sans-serif;
+}
+.player-select{
+    background-color: #343a40;
+    margin-top: 0;
+}
+.selection{
+    display: flex;
+    gap: 30px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 60px 0;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.card{
+    border: 1px solid lavender;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: rgb(46, 45, 45);
+}
+.card img{
+    width: 270px;
+    height: 180px;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    text-align: center;
+}
+.btn{
+    background-color: #0081a7;
+    color: #edf2f4;
+    width: 90%;
+    align-self: center;
+    padding: 8px 40px;
+    border: none;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+.card .btn{
+    text-transform: uppercase;
+}
+.desable{
+    background-color: #adb5bd;
+    cursor: not-allowed;
+}
+.calculate{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.total-player{
+    width: 100%;
+    height: 327px;
+    background-color: rgb(46, 45, 45);
+    padding: 20px;
+}
+.total-player h2{
+    text-align: center;
+}
+.total-player ol{
+    padding: 15px 20px;
+}
+.total-player ol li{
+    font-size: 20px;
+    color: #edf2f4;
+    margin: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+.total-player h2{
+    border-bottom: 3px solid salmon;
+    border-width: thick;
+}
+.club-cost{
+    margin-top: 30px;
+    padding: 20px;
+    background-color: rgb(46, 45, 45);
+    height: auto;
+    text-align: center;
+}
+.player-cost{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+    margin-top: 30px;
+}
+.per-player{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.margin-buttom{
+    padding-bottom: 25px;
+}
+.para{
+    width: 90px;
+    padding: 10px;
+    margin-left: 5px;
+    border: 1px solid #edf2f4;
+    text-align: center;
+    outline: none;
+    color: #edf2f4;
+    font-size: 18px;
+    background-color: rgb(46, 45, 45);;
+}
+.club-cost h2{
+    border-bottom: 3px solid salmon;
+    border-width: thick;
+}
+.expense{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 30px;
+}
+.total{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 30px;
+}
